@@ -1,0 +1,7 @@
+{
+  "hostname": "localhost",
+  "username": "jshermac_dbClass",
+  "password": "dbClass",
+  "port": "3306",
+  "dbName": "jshermac_demand"
+}

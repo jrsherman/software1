@@ -1,0 +1,144 @@
+/* stylesheet for asg3*/
+body{
+    margin-top: 0;
+    background: url("../images/backDrop.jpg");
+    font-family:tahoma;
+    height: 100%;
+}
+html{
+    
+    height: 100%;
+}
+#siteWrapper{
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+#contentWrapper{
+    min-height:350px;
+
+}
+
+.inputField{
+    
+    border-radius: 8px;
+    padding:3px;
+    padding-left:5px;
+    font-family:tahoma;
+}
+.jumbotron{
+    -webkit-box-shadow: -1px 9px 42px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 42px 0px rgba(0,0,0,0.75);
+ }
+#contentArea1{
+    -webkit-box-shadow: -1px -6px 42px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -6px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -6px 42px 0px rgba(0,0,0,0.75);
+    background-color:#1aa8f4;
+    margin-top:20px;
+}
+.logInForm{
+    padding-top:20px;
+    margin:0 auto;
+    height:300px;
+    width:300px;
+    
+}
+.contentArea{
+    
+    width:800px;
+    margin:0 auto;
+    z-index:-4;
+    text-align:center;
+
+    min-height:700px;
+}
+
+td{padding:4px;
+}
+
+.fadeInText1{
+    visibility:hidden;
+    height:30px;
+}
+.fadeInText2{
+    font-style: italic;
+    visibility:hidden;
+ 
+}
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#footer{
+    background-color:#eee;
+    text-align:center;
+    font-size:10px;
+    width:100%;
+
+    height:300px;
+
+  
+}
+
+.col-sm-4{
+    padding-left:60px;
+   
+}
+
+ul{list-style-type: none;
+    padding-left:10px;
+}
+a:link { padding-left:10px;
+         color: black;
+         font-size:14px;
+        -webkit-text-stroke: .4px darkblue;
+         text-decoration:none;
+    }
+a:visited { 
+            color:black;
+          }
+a:hover { background:none;
+          color:#7a97ff;
+        }
+#map {      
+            margin:0 auto;
+            z-index:1;
+            width: 800px;
+            height: 600px;
+            background-color: grey;
+            margin-top:30px;
+            margin-bottom:30px;
+            border-radius: 50px 50px;
+        }
+#transportationTab{
+            padding:20px;
+            text-align:center;
+            position:fixed;
+            width:240px;
+        
+            background-color:#eee;
+            right:0px;
+            margin-top:20px;
+       
+            border-radius: 15px 50px;
+            border-style: solid;
+            box-shadow: -1px 9px 42px 0px rgba(0,0,0,0.75);
+}
+
+#transpoWrapper{
+    text-align:left;
+    position:fixed;
+    right:0px;
+    margin-top:10px;
+    z-index:5;
+}
+#invisBox{
+    text-align:left;
+    padding-right:40px;
+}
+/*autocomplete tab css*/
+
+
