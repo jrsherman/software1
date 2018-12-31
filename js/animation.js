@@ -1,4 +1,4 @@
-/* ***notes***
+/* ***notes***l
     safari and chrome are really picky about getting integers not floats, make sure to round when animating for these browsers.*/
 var i = 5; //starting at 5 so as to begin the text size appropriatly
 function myFunction() {
